@@ -4,6 +4,8 @@
 
 This project analyzes the historical stock prices of KROM Bank Indonesia to identify trends, patterns, and insights. The analysis covers daily, weekly, and monthly stock data to assist investors, traders, and financial analysts in making informed decisions.
 
+---
+
 ### Dataset Description
 
 The project utilizes three datasets sourced from [Kaggle - KROM Bank Indonesia Stock Historical Price](https://www.kaggle.com/datasets/caesarmario/krom-bank-indonesia-stock-historical-price):
@@ -20,7 +22,7 @@ The project utilizes three datasets sourced from [Kaggle - KROM Bank Indonesia S
 - **Monthly Stock Prices (BBSI.JK_monthly.csv)**  
   A dataset containing 51 entries of monthly aggregated stock prices.  
   Columns: Same as the daily dataset.
-
+---
 ### Goals of the Analysis
 
 - **Explore Stock Trends**  
@@ -36,7 +38,7 @@ The project utilizes three datasets sourced from [Kaggle - KROM Bank Indonesia S
 
 - **Predict Future Trends**  
   Build predictive models using time-series analysis to forecast future stock prices.
-
+---
 ### Key Business Questions
 
 - How do stock prices and trading volumes vary across different timeframes (daily, weekly, monthly)?
@@ -44,7 +46,7 @@ The project utilizes three datasets sourced from [Kaggle - KROM Bank Indonesia S
 - Are there specific times (e.g., months or weeks) with consistent stock performance trends?
 - Can historical data be used to predict future stock prices or trends?
 - How do adjusted closing prices compare to actual closing prices?
-
+---
 ### Steps to Reproduce the Analysis
 
 1. **Dataset Preparation**  
