@@ -49,20 +49,22 @@ The project utilizes three datasets sourced from [Kaggle - KROM Bank Indonesia S
 ---
 ### Steps to Reproduce the Analysis
 
-1. **Dataset Preparation**  
-   Load the datasets into a Jupyter Notebook or Python environment.  
-   Clean the data and handle any missing values as necessary.
+1. **Exploratory Data Analysis**  
+   - Compare close prices across daily, weekly, and monthly timeframes using visualizations.  
+   - Analyze trading volumes over time to detect patterns or anomalies.  
 
-2. **Exploratory Data Analysis (EDA)**  
-   Visualize trends in Open, High, Low, Close, and Volume.  
-   Calculate performance metrics such as returns, volatility, and risk.
+2. **Performance Metrics**  
+   - Compute key metrics such as daily returns, volatility, and annualized volatility.  
+   - Use rolling returns to observe and analyze trends over time.  
 
-3. **Modeling and Forecasting**  
-   Apply time-series models (e.g., ARIMA, LSTM) to predict future stock prices.
+3. **Specific Time Trends**  
+   - Identify average monthly performance to uncover seasonal trends or recurring patterns.  
 
-4. **Visualization**  
-   Create plots to show daily, weekly, and monthly stock trends.  
-   Compare patterns across different timeframes.
+4. **Forecasting**  
+   - Implement an ARIMA model for short-term price forecasting.  
+
+5. **Adjusted vs Actual Close Prices**  
+   - Plot and compare raw close prices with adjusted close prices (if available) to understand discrepancies.  
 
 ### Technologies Used
 
